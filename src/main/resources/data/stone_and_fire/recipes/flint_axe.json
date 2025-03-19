@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:flint"
+    },
+    "S": {
+      "item": "stone_and_fire:fiber"
+    }
+  },
+  "pattern": [
+    "XS",
+    " I"
+  ],
+  "result": {
+    "item": "stone_and_fire:flint_axe"
+  },
+  "show_notification": true
+}

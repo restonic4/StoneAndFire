@@ -20,7 +20,7 @@ public abstract class BlockStateBaseMixin {
         Block block = this.getBlock();
         BlockState blockState = block.defaultBlockState();
 
-        if (blockState.is(BlockTags.LOGS) || blockState.is(BlockTags.PLANKS)) {
+        if (blockState.is(BlockTags.LOGS) || blockState.is(BlockTags.PLANKS) || blockState.is(BlockTags.WOODEN_STAIRS) || blockState.is(BlockTags.WOODEN_SLABS)) {
             cir.setReturnValue(true);
         }
     }

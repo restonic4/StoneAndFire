@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_fiber_plants": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "tag": "stone_and_fire:fiber_plants" },
+          { "tag": "stone_and_fire:fiber_plants" },
+          { "tag": "stone_and_fire:fiber_plants" },
+          { "tag": "stone_and_fire:fiber_plants" }
+        ]
+      }
+    }
+  },
+  "requirements": [["has_fiber_plants"]],
+  "rewards": {
+    "experience": 10,
+    "recipes": ["stone_and_fire:fiber_from_plants"]
+  }
+}

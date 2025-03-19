@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_flint": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "item": "minecraft:flint" }] }
+    },
+    "has_stick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "item": "minecraft:stick" }] }
+    },
+    "has_fiber": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "item": "stone_and_fire:fiber" }] }
+    }
+  },
+  "requirements": [["has_flint", "has_stick", "has_fiber"]],
+  "rewards": {
+    "experience": 20,
+    "recipes": ["stone_and_fire:flint_pickaxe"]
+  }
+}

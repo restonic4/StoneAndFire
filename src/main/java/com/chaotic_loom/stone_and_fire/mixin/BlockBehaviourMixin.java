@@ -17,7 +17,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 public class BlockBehaviourMixin {
     @Inject(method = "getDestroyProgress", at = @At("RETURN"), cancellable = true)
     private void avoidPunchingWood(BlockState blockState, Player player, BlockGetter blockGetter, BlockPos blockPos, CallbackInfoReturnable<Float> cir) {
-        if (blockState.is(BlockTags.LOGS) || blockState.is(BlockTags.PLANKS)) {
+        if (blockState.is(BlockTags.LOGS)) {
             if (!(player.getMainHandItem().getItem() instanceof DiggerItem)) {
                 cir.setReturnValue(0f);
             }

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "tag": "stone_and_fire:fiber_plants" },
+    { "tag": "stone_and_fire:fiber_plants" },
+    { "tag": "stone_and_fire:fiber_plants" },
+    { "tag": "stone_and_fire:fiber_plants" }
+  ],
+  "result": {
+    "item": "stone_and_fire:fiber",
+    "count": 1
+  }
+}

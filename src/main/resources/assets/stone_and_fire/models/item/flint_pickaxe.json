@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "stone_and_fire:item/flint_pickaxe"
+  }
+}
