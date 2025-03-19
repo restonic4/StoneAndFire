@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "stone_and_fire",
+  "version": "${version}",
+  "name": "StoneAndFire",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/marco/StoneAndFire"
+  },
+  "license": "MIT",
+  "icon": "assets/stone_and_fire/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+
+    ],
+    "main": [
+      "com.chaotic_loom.stone_and_fire.StoneAndFire"
+    ]
+  },
+  "mixins": [
+    "stone_and_fire.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
