@@ -20,12 +20,52 @@ public class SFItems {
 
     public static final AxeItem FLINT_AXE = (AxeItem) registerItem(
             "flint_axe",
-            new AxeItem(Tiers.GOLD, 0, -2, new Item.Properties())
+            new AxeItem(SFToolTiers.get(SFToolTiers.FLINT), 6, -3.0F, new Item.Properties())
     );
 
     public static final PickaxeItem FLINT_PICKAXE = (PickaxeItem) registerItem(
             "flint_pickaxe",
-            new PickaxeItem(Tiers.GOLD, 0, -2, new Item.Properties())
+            new PickaxeItem(SFToolTiers.get(SFToolTiers.FLINT), 1, -2.8f, new Item.Properties())
+    );
+
+    public static final Item RAW_TIN = registerItem(
+            "raw_tin",
+            new Item(new Item.Properties())
+    );
+
+    public static final Item BRONZE_MASS = registerItem(
+            "bronze_mass",
+            new Item(new Item.Properties())
+    );
+
+    public static final Item BRONZE_INGOT = registerItem(
+            "bronze_ingot",
+            new Item(new Item.Properties())
+    );
+
+    public static final AxeItem BRONZE_AXE = (AxeItem) registerItem(
+            "bronze_axe",
+            new AxeItem(SFToolTiers.get(SFToolTiers.BRONZE), 6.0F, -3.0F, new Item.Properties())
+    );
+
+    public static final PickaxeItem BRONZE_PICKAXE = (PickaxeItem) registerItem(
+            "bronze_pickaxe",
+            new PickaxeItem(SFToolTiers.get(SFToolTiers.BRONZE), 1, -2.8f, new Item.Properties())
+    );
+
+    public static final SwordItem BRONZE_SWORD = (SwordItem) registerItem(
+            "bronze_sword",
+            new SwordItem(SFToolTiers.get(SFToolTiers.BRONZE), 3, -2.4F, new Item.Properties())
+    );
+
+    public static final ShovelItem BRONZE_SHOVEL = (ShovelItem) registerItem(
+            "bronze_shovel",
+            new ShovelItem(SFToolTiers.get(SFToolTiers.BRONZE), 1.5f, -3.0F, new Item.Properties())
+    );
+
+    public static final HoeItem BRONZE_HOE = (HoeItem) registerItem(
+            "bronze_hoe",
+            new HoeItem(SFToolTiers.get(SFToolTiers.BRONZE), 0, -3.0F, new Item.Properties())
     );
 
     public static void register() {

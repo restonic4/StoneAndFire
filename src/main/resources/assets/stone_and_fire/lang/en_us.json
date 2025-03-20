@@ -2,6 +2,18 @@
   "itemGroup.stone_and_fire": "Stone & Fire",
 
   "item.stone_and_fire.fiber": "Fiber",
+
   "item.stone_and_fire.flint_axe": "Flint Axe",
-  "item.stone_and_fire.flint_pickaxe": "Flint Pickaxe"
+  "item.stone_and_fire.flint_pickaxe": "Flint Pickaxe",
+
+  "item.stone_and_fire.raw_tin": "Raw Tin",
+
+  "item.stone_and_fire.bronze_mass": "Bronze Mass",
+  "item.stone_and_fire.bronze_ingot": "Bronze Ingot",
+
+  "item.stone_and_fire.bronze_axe": "Bronze Axe",
+  "item.stone_and_fire.bronze_pickaxe": "Bronze Pickaxe",
+  "item.stone_and_fire.bronze_sword": "Bronze Sword",
+  "item.stone_and_fire.bronze_shovel": "Bronze Shovel",
+  "item.stone_and_fire.bronze_hoe": "Bronze Hoe"
 }

@@ -1,6 +1,29 @@
 {
   "replace": false,
   "values": [
-    "#c:plants"
+    "#minecraft:saplings",
+    "#minecraft:leaves",
+    "#minecraft:small_flowers",
+    "#minecraft:tall_flowers",
+    { "id": "#stone_and_fire:compatibility_plants", "required": false },
+
+    "minecraft:grass",
+    "minecraft:tall_grass",
+    "minecraft:seagrass",
+    "minecraft:fern",
+    "minecraft:large_fern",
+    "minecraft:vine",
+    "minecraft:lily_pad",
+    "minecraft:brown_mushroom",
+    "minecraft:red_mushroom",
+    "minecraft:crimson_fungus",
+    "minecraft:warped_fungus",
+    "minecraft:crimson_roots",
+    "minecraft:warped_roots",
+    "minecraft:nether_sprouts",
+    "minecraft:weeping_vines",
+    "minecraft:twisting_vines",
+    "minecraft:sugar_cane",
+    "minecraft:kelp"
   ]
 }
